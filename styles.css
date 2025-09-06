@@ -1,0 +1,35 @@
+.cleaner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    text-align: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input[type="file"] {
+    padding: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0077ff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005ecc;
+}
